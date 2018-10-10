@@ -17,4 +17,4 @@ plt.show()
 
 # 训练第一个fastai的模型，使用预训练的模型
 learner = ConvLearner(data, arch, metrics=accuracy)
-learner.fit(3)
+learner.fit(1)
